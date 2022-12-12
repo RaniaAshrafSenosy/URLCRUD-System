@@ -1,0 +1,26 @@
+@font-face {
+    font-family: titleFont1;
+    src: url(../font//Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: font;
+    src: url(../font//Montserrat-Bold.ttf);
+}
+.font{
+    font-family:titleFont1 ;
+}
+.main-font{
+    font-family: font;
+}
+.main-color{
+    color: #EEEEEE;
+}
+.sec-color{
+    color: #AAAAAA;
+}
+.back-ground{
+    background-color: #EEEEEE;
+}
+.main-background{
+    background-image: linear-gradient(#EEEEEE, #fff);
+}

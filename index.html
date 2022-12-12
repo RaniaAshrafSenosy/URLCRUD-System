@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    
+    </head>
+    <body class="main-font">
+        <section class=" w-100">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 ">
+                      <h1 class=" sec-color my-5">BookMarker</h1>
+                      <hr>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="back-ground p-5 w-75 m-auto">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 text-center ">
+                        <h3>Bookmark your favorite sites</h3>
+                        <label class="text-black" >Site Name</label>
+                        <input id="siteName" type="text" placeholder="Bookmark Name" class="my-2 form-control">
+                        <div  id="errorName-msg" class="alert alert-danger p-2 my-2 d-none"> The site Name should be more than 3 words and less than 10 words</div>
+                        <label >Site URL</label>
+                        <input  id="siteLink" type="text" placeholder="Website URL" class=" my-2  form-control">
+                        <div id="errorURL-msg" class="alert alert-danger p-2 my-2 d-none"> The site URL should be a valid URL</div>
+                        <button disabled id="submitBtn" class="btn bg-primary my-3 ">Submit</button>
+                        <input type="text"  id="searchInput"class="my-2 form-control" placeholder="search by website Name....">
+                        <div id="errorSearch-msg" class="alert alert-danger p-2 my-2 d-none">The site Name should be more than 3 words and less than 10 words </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="output" class="w-75 m-auto">
+        </section>
+        <footer class="font m-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                        <p class="sec-color">© 2019 Bookmarker Inc.</p>
+
+                    </div>
+                </div>
+            </div>
+       
+        </footer>
+        
+   
+    
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
